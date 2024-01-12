@@ -19,20 +19,17 @@
       zmk,kscan = &kscan0;
       zmk,matrix_transform = &default_transform;
   };
-
   keymap {
     compatible = "zmk,keymap";
-
     default_layer {
       bindings = <
-                    &kp ESC     &kp N1    &kp N2   &kp N3    &kp N9      &kp N8    &kp N7
+                    &kp ESC     &trans    &trans   &trans    &kp N9      &kp N8    &kp N7
                     &kp TAB     &kp Q     &kp W    &kp E     &kp N6      &kp N5    &kp N4
         &kp F13     &kp ENTER   &kp D     &kp S    &kp A     &kp N3      &kp N2    &kp N1
-        &kp F14     &kp LSHFT   &kp Z     &kp X    &kp C     &kp DOT     &kp DOT   &kp N0
+        &kp F14     &kp LSHFT   &kp Z     &kp X    &kp C     &trans      &trans    &kp N0
         &kp F15     &kp LCTRL   &sl FUNC  &kp LALT           &kp SPACE             &lt ARROW
       >;
     };
-
     arrow_layer {
       bindings = <
                     &bt BT_SEL 0 &bt BT_SEL 1 &trans     &trans    &trans           &out OUT_USB     &out OUT_BLE
@@ -42,7 +39,6 @@
         &bootloader &trans       &trans       &trans               &trans                            &trans
       >;
     };
-
     function_layer {
       bindings = <
                     &trans    &kp F1    &kp F2   &kp F3    &kp F4   &kp F5   &kp F6
