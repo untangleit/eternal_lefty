@@ -29,7 +29,7 @@
                     &kp TAB     &kp Q     &kp W    &kp E     &kp N6      &kp N5    &kp N4
         &kp F13     &kp ENTER   &kp D     &kp S    &kp A     &kp N3      &kp N2    &kp N1
         &kp F14     &kp LSHFT   &kp Z     &kp X    &kp C     &kp DOT     &kp DOT   &kp N0
-        &kp F15     &kp LCTRL   &lt FUNC  &kp LALT           &kp SPACE             &lt ARROW
+        &kp F15     &kp LCTRL   &sl FUNC  &kp LALT           &kp SPACE             &lt ARROW
       >;
     };
 
